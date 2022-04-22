@@ -17,7 +17,7 @@ public class Pessoa {
 	private String nome;
 	@ManyToOne
 	private Departamento departamento;
-	@OneToMany(mappedBy = "pessoa")
+	@OneToMany(mappedBy = "pessoa", orphanRemoval = true)
 	private List<Tarefa> tarefas;
 	
 	public Pessoa() {}
