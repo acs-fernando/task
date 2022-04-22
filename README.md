@@ -6,7 +6,7 @@ Funcionalidades:
 <ul>
   <li> Adicionar um pessoa (post/pessoas)<br> Exemplo: <code>{
     "nome": "Camila",
-    "id": 1
+    "idDepartamento": 1
 }</code></li>
   <li> Alterar um pessoa (put/pessoas/{id})</li>
   <li> Remover pessoa (delete/pessoas/{id})</li>
