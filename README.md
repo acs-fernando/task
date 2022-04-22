@@ -4,7 +4,10 @@ API REST de gerenciamento de tarefas e colaboradores
 
 Funcionalidades:
 <ul>
-  <li> Adicionar um pessoa (post/pessoas)</li>
+  <li> Adicionar um pessoa (post/pessoas)<br> Exemplo: <code>{
+    "nome": "Camila",
+    "id": 1
+}</code></li>
   <li> Alterar um pessoa (put/pessoas/{id})</li>
   <li> Remover pessoa (delete/pessoas/{id})</li>
   <li> Adicionar um tarefa (post/tarefas)</li>
