@@ -8,9 +8,19 @@ Funcionalidades:
     "nome": "Camila",
     "idDepartamento": 1
 }</code></li>
-  <li> Alterar um pessoa (put/pessoas/{id})</li>
+  <li> Alterar um pessoa (put/pessoas/{id})<br> Exemplo: <code>{
+    "nome": "Camila Silva"
+}</code></li>
   <li> Remover pessoa (delete/pessoas/{id})</li>
-  <li> Adicionar um tarefa (post/tarefas)</li>
+  <li> Adicionar um tarefa (post/tarefas)<br> Exemplo: <code>{
+    "titulo": "Validar NF Janeiro",
+    "descricao": "Validar notas recebidas no mês de Janeiro",
+    "prazo": "2022-02-15",
+    "idDepartamento": 1,
+    "duracao": 14,
+    "idPessoa": 1,
+    "finalizado": true
+}</code></li>
   <li> Alocar uma pessoa na tarefa que tenha o mesmo departamento (put/tarefas/alocar/{id})</li>
   <li> Finalizar a tarefa (put/tarefas/finalizar/{id})</li>
   <li> Listar pessoas trazendo nome, departamento, total horas gastas nas tarefas.(get/pessoas)</li>
